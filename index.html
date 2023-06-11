@@ -9,8 +9,9 @@
 </head>
 
 <body>
-  <script>
-    window.location.href = 'pages/home/index.html';
+  <script src="core/inject-globals.core.js" type="module"></script>
+  <script type="module">
+    window.utils.navigate('home', { page: 1 })
   </script>
 </body>
 
