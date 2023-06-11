@@ -11,5 +11,5 @@ export function navigate(route, params) {
     }
   })
 
-  window.location.href = result;
+  window.location.href = baseUrl + result;
 }
